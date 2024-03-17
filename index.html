@@ -12,10 +12,11 @@
     <img class="imagen-portada" src="misxv.png">
     <h1>Mis XV Yunuen</h1>
     <form id="guestForm">
+      <label for="Nota">Nota: Ingresa los datos sin acentos</label>
       <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" required oninput="this.value = this.value.toUpperCase()">
+      <input type="text" id="nombre" oninput="this.value = this.value.toUpperCase()">
       <label for="apellido">Apellido Paterno:</label>
-      <input type="text" id="apellido" required oninput="this.value = this.value.toUpperCase()">
+      <input type="text" id="apellido" oninput="this.value = this.value.toUpperCase()">
       <button class="boton" type="submit">Enviar</button>
     </form>
     <div class="mensaje-mesa" id="mensaje"></div>

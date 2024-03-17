@@ -55,6 +55,7 @@ button:hover {
 }
 
 .mensaje-mesa{
+  font-size: 25px;
   text-align: center;
   padding: 2em;
 }
